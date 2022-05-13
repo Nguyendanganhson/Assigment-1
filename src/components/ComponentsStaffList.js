@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { STAFFS } from "./shared/staffs";
 import "./StaffList.css";
+
 function StaffList() {
-  const memberInfo = (i) => {
-    document.getElementById("title").innerHTML = "";
-  };
+  function memberinfo() {
+    return <p>123</p>;
+  }
 
   return (
     <div id="wapper">
@@ -15,7 +16,7 @@ function StaffList() {
       {/*hiển thị list nhân viên*/}
       <div id="row">
         <div className="col-lg-4 col-md-6 col-12" id="item-1">
-          <p onClick={() => memberInfo("thong bao")}>{STAFFS[0].name}</p>
+          <p onClick={() => memberInfo()}>{STAFFS[0].name}</p>
         </div>
 
         <div className="col-lg-4 col-md-6 col-12">
@@ -36,9 +37,15 @@ function StaffList() {
       </div>
       {/*Hiển thị thông tin chi tiết*/}
       <div id="detai" className="col-lg-4 col-md-6 col-12">
-        <p id="title">
-          <strong>Bấm vào tên nhân viên để xem thông tin</strong>
+        <memberInfo />
+        <p>
+          <strong id="name"></strong>
         </p>
+        <p id="birth"></p>
+        <p id="date"></p>
+        <p id="division"></p>
+        <p id="date1"></p>
+        <p id="date2"></p>
       </div>
     </div>
   );

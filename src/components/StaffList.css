@@ -25,7 +25,11 @@
   padding-right: 200px;
   border-radius: 5%;
 }
-#detai p strong {
+#detai {
   border: 1px solid gray;
   border-radius: 5%;
+  width: 300px;
+  margin-left: 60px;
+  text-align: left;
+  padding-left: 20px;
 }
