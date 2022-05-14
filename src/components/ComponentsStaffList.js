@@ -50,7 +50,7 @@ export default StaffList;
 
 {
   /* 
-function StaffList() {
+function StaffList() { phiên bản 1.1
   return (
     <div id="wapper">
       

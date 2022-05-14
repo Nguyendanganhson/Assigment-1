@@ -9,8 +9,8 @@
   background-color: blue;
   color: white;
 }
-#row {
-  display: inline-block;
+/*#row {
+  display: inline-block;*/
 }
 #row div {
   list-style: none;
