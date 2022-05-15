@@ -21,7 +21,7 @@ class StaffList extends Component {
             <p>{STAFFS[0].name}</p>
           </div>
 
-          <div className="col-lg-4 col-md-6 col-12">
+          {/* <div className="col-lg-4 col-md-6 col-12">
             <p>{STAFFS[1].name}</p>
           </div>
 
@@ -39,7 +39,7 @@ class StaffList extends Component {
 
           <div className="col-lg-4 col-md-6 col-12">
             <p>{STAFFS[5].name}</p>
-          </div>
+          </div>*/}
         </div>
       </div>
     );
