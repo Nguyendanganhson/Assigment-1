@@ -6,8 +6,7 @@ import "./StaffList.css";
 class StaffList extends Component {
   constructor(props) {
     super(props);
-    {
-    }
+
     this.state = { status: null };
   }
   memberSelected(list) {
