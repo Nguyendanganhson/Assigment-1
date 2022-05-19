@@ -7,7 +7,6 @@ class StaffList extends Component {
   constructor(props) {
     super(props);
     {
-      /* test*/
     }
     this.state = { status: null };
   }
